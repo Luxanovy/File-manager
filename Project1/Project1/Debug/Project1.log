@@ -1,0 +1,15 @@
+﻿  MyForm.cpp
+D:\Study\4 семестр\СПОВМ\КП\Project1\Project1\MyForm.cpp(171,15): warning C4129: *: неизвестная escape-последовательность
+D:\Study\4 семестр\СПОВМ\КП\Project1\Project1\MyForm.cpp(765,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\4 семестр\СПОВМ\КП\Project1\Project1\MyForm.cpp(779,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\4 семестр\СПОВМ\КП\Project1\Project1\MyForm.cpp(811,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\4 семестр\СПОВМ\КП\Project1\Project1\MyForm.cpp(825,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Study\4 семестр\СПОВМ\КП\Project1\Project1\MyForm.cpp(651,9): warning C4101: k: неиспользованная локальная переменная
+D:\Study\4 семестр\СПОВМ\КП\Project1\Project1\MyForm.cpp(650,8): warning C4101: Drivers: неиспользованная локальная переменная
+D:\Study\4 семестр\СПОВМ\КП\Project1\Project1\MyForm.cpp(652,7): warning C4101: c: неиспользованная локальная переменная
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  Создание кода...
+D:\Study\4 семестр\СПОВМ\КП\Project1\Project1\MyForm.cpp(103): warning C4700: использована неинициализированная локальная переменная "Msg"
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+MyForm.obj : warning LNK4248: неразрешенная лексема TypeRef (01000024) для "_IMAGELIST"; образ нельзя запустить
+  Project1.vcxproj -> D:\Study\4 семестр\СПОВМ\КП\Project1\Debug\Project1.exe

@@ -1,0 +1,9 @@
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\Debug\Project1.vcxprojAssemblyReference.cache
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\Debug\Project1.MyForm.resources
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\Debug\Project1.vcxproj.GenerateResource.cache
+D:\Для учёбы\4 семестр\СПОВМ\КП\Project1\Project1\Debug\Project1.vcxprojAssemblyReference.cache
+D:\Для учёбы\4 семестр\СПОВМ\КП\Project1\Project1\Debug\Project1.MyForm.resources
+D:\Для учёбы\4 семестр\СПОВМ\КП\Project1\Project1\Debug\Project1.vcxproj.GenerateResource.cache
+D:\Study\4 семестр\СПОВМ\КП\Project1\Project1\Debug\Project1.vcxprojAssemblyReference.cache
+D:\Study\4 семестр\СПОВМ\КП\Project1\Project1\Debug\Project1.MyForm.resources
+D:\Study\4 семестр\СПОВМ\КП\Project1\Project1\Debug\Project1.vcxproj.GenerateResource.cache

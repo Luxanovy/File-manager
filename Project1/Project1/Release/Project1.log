@@ -1,0 +1,134 @@
+﻿  MyForm.cpp
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(14,1): warning C4005: _WIN32_IE: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\sdkddkver.h(262): message : см. предыдущее определение "_WIN32_IE"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(18,1): warning C4005: TBSTYLE_AUTOSIZE: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\commctrl.h(1251): message : см. предыдущее определение "TBSTYLE_AUTOSIZE"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(19,1): warning C4005: BTNS_BUTTON: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\commctrl.h(1269): message : см. предыдущее определение "BTNS_BUTTON"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(20,1): warning C4005: CCS_VERT: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\commctrl.h(2980): message : см. предыдущее определение "CCS_VERT"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(21,1): warning C4005: TB_SETIMAGELIST: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\commctrl.h(1462): message : см. предыдущее определение "TB_SETIMAGELIST"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(22,1): warning C4005: TB_LOADIMAGES: изменение макроопределения
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\commctrl.h(1464): message : см. предыдущее определение "TB_LOADIMAGES"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(89,38): error C2440: =: невозможно преобразовать "char [10]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(89,27): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(95,9): error C2664: "HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)": невозможно преобразовать аргумент 2 из "char [10]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(95,9): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(4436,1): message : см. объявление "CreateWindowExW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(144,18): error C2440: =: невозможно преобразовать "char *" в "LPWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(144,16): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(164,44): error C2664: "HANDLE FindFirstFileW(LPCWSTR,LPWIN32_FIND_DATAW)": невозможно преобразовать аргумент 1 из "char []" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(164,24): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\fileapi.h(241,1): message : см. объявление "FindFirstFileW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(171,7): error C2664: "int strcmp(const char *,const char *)": невозможно преобразовать аргумент 1 из "WCHAR [260]" в "const char *"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(171,27): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(100,13): message : см. объявление "strcmp"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(174,40): error C2664: "char *strcat(char *,const char *)": невозможно преобразовать аргумент 2 из "WCHAR [260]" в "const char *"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(174,30): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90,1): message : см. объявление "strcat"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(175,112): error C2664: "DWORD_PTR SHGetFileInfoW(LPCWSTR,DWORD,SHFILEINFOW *,UINT,UINT)": невозможно преобразовать аргумент 1 из "const char [1]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(175,19): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\shellapi.h(1265,22): message : см. объявление "SHGetFileInfoW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(181,7): error C2664: "int strcmp(const char *,const char *)": невозможно преобразовать аргумент 1 из "WCHAR [260]" в "const char *"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(181,27): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(100,13): message : см. объявление "strcmp"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(184,40): error C2664: "char *strcat(char *,const char *)": невозможно преобразовать аргумент 2 из "WCHAR [260]" в "const char *"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(184,30): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90,1): message : см. объявление "strcat"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(185,115): error C2664: "DWORD_PTR SHGetFileInfoW(LPCWSTR,DWORD,SHFILEINFOW *,UINT,UINT)": невозможно преобразовать аргумент 1 из "const char [1]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(185,19): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\shellapi.h(1265,22): message : см. объявление "SHGetFileInfoW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(195,39): error C2664: "char *strcat(char *,const char *)": невозможно преобразовать аргумент 2 из "WCHAR [260]" в "const char *"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(195,29): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90,1): message : см. объявление "strcat"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(196,38): error C2664: "DWORD GetFileAttributesW(LPCWSTR)": невозможно преобразовать аргумент 1 из "char [260]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(196,34): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\fileapi.h(601,1): message : см. объявление "GetFileAttributesW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(197,95): error C2664: "DWORD_PTR SHGetFileInfoW(LPCWSTR,DWORD,SHFILEINFOW *,UINT,UINT)": невозможно преобразовать аргумент 1 из "char [260]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(197,18): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\shellapi.h(1265,22): message : см. объявление "SHGetFileInfoW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(223,22): error C2440: =: невозможно преобразовать "char *" в "LPWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(223,19): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(242,44): error C2664: "HANDLE FindFirstFileW(LPCWSTR,LPWIN32_FIND_DATAW)": невозможно преобразовать аргумент 1 из "char []" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(242,24): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\fileapi.h(241,1): message : см. объявление "FindFirstFileW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(253,49): error C2664: "void Viev_List(char *,HWND,int,int)": невозможно преобразовать аргумент 1 из "WCHAR [260]" в "char *"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(253,26): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(214,6): message : см. объявление "Viev_List"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(286,6): error C2664: "HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)": невозможно преобразовать аргумент 1 из "char []" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(286,17): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\fileapi.h(100,1): message : см. объявление "CreateFileW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(298,30): warning C4244: аргумент: преобразование "__int64" в "LONG", возможна потеря данных
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(299,24): warning C4244: =: преобразование "__int64" в "DWORD", возможна потеря данных
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(319,44): error C2664: "HANDLE FindFirstFileW(LPCWSTR,LPWIN32_FIND_DATAW)": невозможно преобразовать аргумент 1 из "char []" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(319,24): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\fileapi.h(241,1): message : см. объявление "FindFirstFileW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(330,39): error C2664: "char *strcat(char *,const char *)": невозможно преобразовать аргумент 2 из "WCHAR [260]" в "const char *"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(330,29): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(90,1): message : см. объявление "strcat"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(333,7): error C2664: "DWORD GetFileAttributesW(LPCWSTR)": невозможно преобразовать аргумент 1 из "char [260]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(333,54): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\fileapi.h(601,1): message : см. объявление "GetFileAttributesW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(343,13): error C2440: return: невозможно преобразовать "char [260]" в "LPCTSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(343,9): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(385,42): error C2664: "BOOL CopyFile(LPCTSTR,LPCTSTR,BOOL)": невозможно преобразовать аргумент 1 из "char [260]" в "LPCTSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(385,13): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winbase.h(5387,1): message : см. объявление "CopyFile"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(397,26): error C2664: "BOOL DeleteFile(LPCTSTR)": невозможно преобразовать аргумент 1 из "char [260]" в "LPCTSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(397,15): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winbase.h(5260,1): message : см. объявление "DeleteFile"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(434,18): warning C4129: *: неизвестная escape-последовательность
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(436,32): error C2664: "BOOL SetWindowTextW(HWND,LPCWSTR)": невозможно преобразовать аргумент 2 из "char [260]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(436,29): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(8902,1): message : см. объявление "SetWindowTextW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(454,18): warning C4129: *: неизвестная escape-последовательность
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(456,33): error C2664: "BOOL SetWindowTextW(HWND,LPCWSTR)": невозможно преобразовать аргумент 2 из "char [260]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(456,29): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(8902,1): message : см. объявление "SetWindowTextW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(472,4): error C2440: =: невозможно преобразовать "char [260]" в "LPWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(472,4): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(480,7): error C2664: "DWORD GetFileAttributesW(LPCWSTR)": невозможно преобразовать аргумент 1 из "char [260]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(480,54): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\fileapi.h(601,1): message : см. объявление "GetFileAttributesW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(495,4): error C2440: =: невозможно преобразовать "char [260]" в "LPWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(495,4): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(505,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(514,61): error C2664: "HINSTANCE ShellExecuteW(HWND,LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR,INT)": невозможно преобразовать аргумент 2 из "const char [5]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(514,22): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\shellapi.h(87,22): message : см. объявление "ShellExecuteW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(522,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(542,33): error C2664: "BOOL SetWindowTextW(HWND,LPCWSTR)": невозможно преобразовать аргумент 2 из "char [260]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(542,30): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(8902,1): message : см. объявление "SetWindowTextW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(554,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(563,62): error C2664: "HINSTANCE ShellExecuteW(HWND,LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR,INT)": невозможно преобразовать аргумент 2 из "const char [5]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(563,22): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\shellapi.h(87,22): message : см. объявление "ShellExecuteW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(571,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(591,34): error C2664: "BOOL SetWindowTextW(HWND,LPCWSTR)": невозможно преобразовать аргумент 2 из "char [260]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(591,30): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(8902,1): message : см. объявление "SetWindowTextW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(611,1): error C2664: "HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)": невозможно преобразовать аргумент 2 из "const char [7]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(611,1): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(4436,1): message : см. объявление "CreateWindowExW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(615,1): error C2664: "HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)": невозможно преобразовать аргумент 2 из "const char [7]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(615,1): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(4436,1): message : см. объявление "CreateWindowExW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(620,1): error C2664: "HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)": невозможно преобразовать аргумент 2 из "const char [9]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(620,1): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(4436,1): message : см. объявление "CreateWindowExW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(626,1): error C2664: "HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)": невозможно преобразовать аргумент 2 из "const char [9]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(626,1): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(4436,1): message : см. объявление "CreateWindowExW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(655,30): error C2664: "BOOL SetWindowTextW(HWND,LPCWSTR)": невозможно преобразовать аргумент 2 из "char [260]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(655,27): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(8902,1): message : см. объявление "SetWindowTextW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(657,30): error C2664: "BOOL SetWindowTextW(HWND,LPCWSTR)": невозможно преобразовать аргумент 2 из "char [260]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(657,27): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(8902,1): message : см. объявление "SetWindowTextW"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(662,31): error C2664: "BOOL SetWindowTextW(HWND,LPCWSTR)": невозможно преобразовать аргумент 2 из "char [260]" в "LPCWSTR"
+D:\Для учёбы\СПОВМ\КП\Project1\Project1\MyForm.cpp(662,27): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(8902,1): message : см. объявление "SetWindowTextW"
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  Создание кода...
